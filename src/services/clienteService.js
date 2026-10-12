@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 // URL base configurable mediante variable de entorno (ver .env.example)
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/clientes';
+const API_URL = import.meta.env.VITE_API_URL || '/api/clientes';
 
 /** Obtiene la lista completa de clientes (GET /api/clientes) */
 export const obtenerClientes = () => axios.get(API_URL).then((res) => res.data);
