@@ -5,7 +5,7 @@ Aplicación web en React (Vite) que consume la API REST de clientes desarrollada
 
 ## Requisitos
 - Node.js 18 o superior
-- API REST de clientes en ejecución (por defecto http://localhost:8080/api/clientes)
+- API REST de clientes en ejecución (por defecto http://localhost:5173/)
 - En desarrollo, Vite reenvía /api hacia http://localhost:8080 (proxy en vite.config.js)
 
 ## Ejecución
